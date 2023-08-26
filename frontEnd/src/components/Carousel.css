@@ -1,0 +1,56 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the container height to the full viewport height */
+    background-color: #f0f0f0; /* Optional background color */
+  
+    /* Add other styling properties */
+  }
+  
+  /* Style for each carousel item */
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure each item takes full width of the container */
+    max-width: 800px; /* Adjust the maximum width of the carousel items */
+    height: 100%; /* Ensure each item takes full height of the container */
+  }
+  
+  /* Style for carousel images */
+  .carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Optional: Add styling for the dots */
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slick-dots li {
+    margin: 0 4px;
+  }
+  
+  .slick-dots li button {
+    background: #bbb;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .slick-dots li.slick-active button {
+    background: #333;
+  }
+  

@@ -1,6 +1,9 @@
 import React, {useState} from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 import "./Home.css";
 // import Result from "../pages/Result";
@@ -14,6 +17,7 @@ import unreal from "../assets/unreal-5.png";
 
 import spiderman from "../assets/spiderman.png";
 import { Link } from "react-router-dom";
+import Carousel from "../components/Carousel";
 
 const Home = () => {
   const [gameName, setgameName] = useState('');
@@ -78,9 +82,10 @@ const Home = () => {
           <img className="rectangle" alt="Rectangle" src={game2} />
           <img className="rectamgle" alt="Rectangle" src={game3} />
           <img className="rectangle-2" alt="Rectangle" src={game4} />
-        </div>
-      </div>
+          {/* <Carousel /> */}
+        </div> 
 
+      </div>
       <section className="spiderman">
         <h2 className="spiderman-heading">
         Discover gaming paradise at our website, where epic adventures await!
