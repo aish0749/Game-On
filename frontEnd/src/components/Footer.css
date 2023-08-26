@@ -1,0 +1,268 @@
+.Footer {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .Footer .frame-wrapper {
+    border: 0px none;
+    height: 366px;
+    width: 1492px;
+  }
+  
+  .Footer .frame {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    left: 0;
+    top: 0;
+    width: 1492px;
+  }
+  
+  .Footer .h-1-wrapper {
+    align-items: flex-start;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .Footer .text-wrapper {
+    color: #ffffff;
+    font-family: "Poppins-ExtraBold", Helvetica;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 36.8px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .Footer .group {
+    height: 161px;
+    min-width: 1219.09px;
+    position: relative;
+  }
+  
+  .Footer .group-wrapper {
+    height: 161px;
+    width: 1219px;
+  }
+  
+  .Footer .div {
+    height: 161px;
+    position: relative;
+    width: 1227px;
+  }
+  
+  .Footer .p {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 46px;
+    transform: rotate(-0.18deg);
+    width: 372px;
+  }
+  
+  .Footer .overlap {
+    height: 161px;
+    left: 450px;
+    position: absolute;
+    top: 0;
+    width: 508px;
+  }
+  
+  .Footer .overlap-group {
+    height: 161px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 508px;
+  }
+  
+  .Footer .zeux-portfolio {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 29.8px;
+    position: absolute;
+    top: 41px;
+    width: 372px;
+  }
+  
+  .Footer .group-2 {
+    height: 161px;
+    left: 220px;
+    position: absolute;
+    top: 0;
+    width: 288px;
+  }
+  
+  .Footer .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 46px;
+    width: 282px;
+  }
+  
+  .Footer .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 133px;
+    width: 141px;
+  }
+  
+  .Footer .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 17px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .Footer .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 129px;
+    width: 196px;
+  }
+  
+  .Footer .group-3 {
+    height: 34px;
+    left: 1035px;
+    position: absolute;
+    top: 117px;
+    width: 184px;
+  }
+  
+  .Footer .facebook-wrapper {
+    background-color: #ffffff;
+    border-radius: 17px;
+    Footer-shadow: 0px 4px 14px #00000026;
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 34px;
+  }
+  
+  .Footer .facebook {
+    height: 12px;
+    left: 11px;
+    position: absolute;
+    top: 11px;
+    width: 12px;
+  }
+  
+  .Footer .instagram-wrapper {
+    background-color: #ffffff;
+    border-radius: 17px;
+    Footer-shadow: 0px 4px 14px #00000026;
+    height: 34px;
+    left: 50px;
+    position: absolute;
+    top: 0;
+    width: 34px;
+  }
+  
+  .Footer .instagram {
+    height: 13px;
+    left: 11px;
+    position: absolute;
+    top: 10px;
+    width: 13px;
+  }
+  
+  .Footer .twitter-wrapper {
+    background-color: #ffffff;
+    border-radius: 17px;
+    Footer-shadow: 0px 4px 14px #00000026;
+    height: 34px;
+    left: 100px;
+    position: absolute;
+    top: 0;
+    width: 34px;
+  }
+  
+  .Footer .twitter {
+    height: 13px;
+    left: 10px;
+    position: absolute;
+    top: 11px;
+    width: 13px;
+  }
+  
+  .Footer .linkedin-wrapper {
+    background-color: #ffffff;
+    border-radius: 17px;
+    Footer-shadow: 0px 4px 14px #00000026;
+    height: 34px;
+    left: 150px;
+    position: absolute;
+    top: 0;
+    width: 34px;
+  }
+  
+  .Footer .linkedin {
+    height: 11px;
+    left: 11px;
+    position: absolute;
+    top: 11px;
+    width: 11px;
+  }
+  
+  .Footer .line {
+    height: 1px;
+    min-width: 1438px;
+    position: relative;
+  }
+  
+  .Footer .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24.8px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  

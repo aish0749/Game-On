@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  padding: 10px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar img{
+  width: 175px;
+  height: 100px;
+  opacity: 0.8; 
+  padding-top: 20px;
+}
+
+.navbar > h1 {
+  font-size: 32px;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu-links {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.menu-links > a {
+  color: #fff;
+}
+
+.menu-buttons {
+  display: flex;
+  gap: 10px;
+}

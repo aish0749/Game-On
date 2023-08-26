@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+  color: #fff;
+}
+
+.app{
+    background-image: url(../src/assets/homepage.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    
+}
+
+a,
+Link {
+  text-decoration: none;
+}
+
+a,
+Link:hover {
+  cursor: pointer;
+}
+
+.cta-btn {
+  border-radius: 4px;
+  background: #fa9021;
+  padding: 10px 30px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  transition: all 0.2s;
+}
+
+.cta-btn:hover {
+  background: #bb6d1a;
+  cursor: pointer;
+}
+
+.btn-black {
+  border-radius: 4px;
+  background: #383634;
+  padding: 10px 30px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  transition: all 0.2s;
+}
+
+.btn-black:hover {
+  background-color: #545250;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
